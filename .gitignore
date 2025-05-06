@@ -1,0 +1,49 @@
+# Build artifacts
+*.o
+*.obj
+*.so
+*.a
+*.lib
+*.dll
+*.exe
+*.out
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+build/
+!build/.gitkeep  # if you want to track an empty build dir
+
+# IDE/project files
+.vscode/
+.idea/
+*.code-workspace
+
+# OS-generated
+.DS_Store
+Thumbs.db
+
+# Backup / temp files
+*~
+*.swp
+*.swo
+*.tmp
+
+# Coverage and testing
+*.gcno
+*.gcda
+*.gcov
+
+# Compiled Python extensions (if mixing)
+*.so
+
+# Clangd / language server
+.cache/
+.clangd/
+
+# Conan / vcpkg / venvs (if used)
+.conan/
+vcpkg_installed/
+venv/
