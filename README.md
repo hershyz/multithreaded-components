@@ -1,2 +1,2 @@
 # multithreaded-components
-Barebones C++ implementations of multithreaded / distributed systems components.
+Barebones implementations of multithreaded / distributed systems components.
